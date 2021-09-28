@@ -1,0 +1,35 @@
+{
+  "name": "bt-boilerplate",
+  "version": "1.0.0",
+  "description": "Bootstrap Boilerplate based on gulp",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod"
+  },
+  "author": "Marc Eberhard",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-zip": "^5.0.2",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^15.4.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

@@ -1,0 +1,23 @@
+// *****  START.SCSS  *****
+// All great things starts here.
+
+h1 {
+    margin: 50px 0 10px 0;
+}
+
+p {
+    font-size: 20px;
+    color: $gray-600;
+    font-weight: 100;
+}
+
+.copy {
+    font-size: 16px;
+    color: $gray-400;
+    font-weight: 100;
+}
+
+a:hover {
+    color: $gray-500;
+    text-decoration: none;
+}

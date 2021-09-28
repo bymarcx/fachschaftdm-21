@@ -1,0 +1,6 @@
+// *****  PRE.SCSS  *****
+//first import bootstrap functions, then override variables, then import bootstrap
+
+@import "node_modules/bootstrap/scss/functions";
+@import '../Overrides/variables';
+@import 'node_modules/bootstrap/scss/bootstrap';

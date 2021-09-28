@@ -1,0 +1,10 @@
+## IGNORE IDEA
+.idea/*
+
+## NODE MODULES 
+node_modules
+
+## IGNORE DIST AND BUNDLED
+dist
+bundled
+
