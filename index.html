@@ -1,43 +1,287 @@
 <!DOCTYPE html>
 <html lang="DE">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bundled CSS -->
-        <link rel="stylesheet" href="./dist/css/bundle.css" type="text/css" media="all">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bundled Header JS -->
-        <script src="./dist/js/bundleHeader.js"></script>
+    <!-- Bundled CSS -->
+    <link rel="stylesheet" href="./dist/css/bundle.css" type="text/css" media="all">
 
-        <title>Bootstrap Boilerplate</title>
-    </head>
-    <body>
-        <!-- HTML STARTS HERE -->
+    <!-- Bundled Header JS -->
+    <script src="./dist/js/bundleHeader.js"></script>
 
-            <!-- EXAMPLE (CAN BE REMOVED) -->
-            <main>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h1>Bootstrap Boilerplate</h1>
-                            <p>Create your next awesome Website! I'm here to help.</p>
-                            <p>This Boilerplate is based on Bootstrap and gulp.js for easy development.</p>
+    <title>Fachschaft Digitale Medien</title>
+</head>
+
+<body id="top">
+    <!-- HTML STARTS HERE -->
+
+    <nav id="nav" data-aos="fade-down" data-aos-delay="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-2 logo">
+                    <a href="#top">
+                        <img src="./dist/img/Logo_Schriftzug.svg">
+                    </a>
+                </div>
+                <div class="col-6 col-md-10">
+                    <div class="burger-menu">
+                        <button class="button" id="nav__button"></button>
+                    </div>
+                    <div class="nav__links">
+                        <a href="#about">Eure Fachschaft</a>
+                        <a href="#aufgaben">Unsere Aufgaben</a>
+                        <a href="#termine">Termine</a>
+                        <a href="#kontakt">Kontakt</a>
+                        <a href="#weiteres">Informatives</a>
+                        <a href="https://www.facebook.com/Fachschaft.DM" target="_blank" class="ico-fb"></a> <a
+                            href="https://www.instagram.com/fachschaft.digitale.medien/" target="_blank"
+                            class="ico-ig"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobile-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mobile-nav__links" id="mobile-nav__links">
+                        <a class="nav-link" href="#about">Eure Fachschaft</a>
+                        <a class="nav-link" href="#aufgaben">Unsere Aufgaben</a>
+                        <a class="nav-link" href="#termine">Termine</a>
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                        <a class="nav-link" href="#weiteres">Informatives</a>
+                        <div> <a href="https://www.facebook.com/Fachschaft.DM" target="_blank" class="ico-fb"></a> <a
+                                href="https://www.instagram.com/fachschaft.digitale.medien/" target="_blank"
+                                class="ico-ig"></a>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 copy">&copy; 2020 Marc Eberhard</div>
-                        <div class="col-md-6"><a href="https://bymarc.media">bymarc.media</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <img src="./dist/img/Logo_Fachschaft_DM.svg" data-aos="fade-in" data-aos-delay="500">
+                    <!-- <h1>Wir sind die Guten</h1> -->
+                    <div class="mouse_scroll_container" data-aos="fade-in" data-aos-delay="2500">
+                        <div class="mouse_scroll">
+                            <div class="mouse">
+                                <div class="wheel"></div>
+                            </div>
+                            <div>
+                                <span class="m_scroll_arrows unu"></span>
+                                <span class="m_scroll_arrows doi"></span>
+                                <span class="m_scroll_arrows trei"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </main>
-            <!-- END EXAMPLE -->
+            </div>
+        </div>
+    </header>
 
-        <!-- HTML ENDS -->
-    
-        <!-- Bundled Footer JS -->
-        <script src="./dist/js/bundleFooter.js"></script>
-    </body>
+    <main>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="center" data-aos="fade-right">Eure Fachschaft</h1>
+                            <h3 class="center" data-aos="fade-up">Wintersemester 2021/22</h3>
+                            <p class="intro" data-aos="fade-up">Wir sind die Fachschaft der Fakultät Digitale Medien der Hochschule Furtwangen.</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="faces">
+                           <div class="faces__box" data-aos="fade-up">
+                                <img src="/dist/img/dummy.jpg">
+                                <p class="bold">Markus Damm</p>
+                                <p class="small">Medienkonzeption - 7</p>
+                                <p class="small"><strong>Vorstandsvorsitzender</strong></p>
+                            </div> 
+                            <div class="faces__box" data-aos="fade-up">
+                                <img src="/dist/img/DennisHawran.jpg">
+                                <p class="bold">Dennis Hawran</p>
+                                <p class="small">Medieninformatik - 6</p>
+                                <p class="small"><strong>Vorstandsvertretung</strong></p>
+                            </div>
+                            <div class="faces__box" data-aos="fade-up">
+                                <img src="/dist/img/dummy.jpg">
+                                <p class="bold">Marleen Hahn</p>
+                                <p class="small">Medienkonzeption - 5</p>
+                                <p class="small"><strong>Finanzbeauftragte</strong></p>
+                            </div>
+                            <div class="faces__box" data-aos="fade-up">
+                                <img src="/dist/img/MarcEberhard-1.jpg">
+                                <p class="bold">Marc Eberhard</p>
+                                <p class="small">Online Medien - 6</p>
+                                <p class="small"><strong>Social-Media</strong></p>
+                            </div>
+                            <div class="faces__box" data-aos="fade-up">
+                                <img src="/dist/img/TobiFischer.jpg">
+                                <p class="bold">Tobias Fischer</p>
+                                <p class="small">Medieninformatik - 5</p>
+                            </div>
+                            
+                            <div class="faces__box" data-aos="fade-up">
+                                <img src="/dist/img/LorenzoGeyer.jpg">
+                                <p class="bold">Lorenzo Geyer</p>
+                                <p class="small">Online Medien - 5</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="aufgaben" id="aufgaben">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="center dark" data-aos="fade-right">Unsere Aufgaben</h1>
+                    </div>
+                    <div class="col-12 col-lg-4" data-aos="fade-up">
+                        <img src="./dist/img/ico-far.png">
+                        <h3>Fakultätsrat</h3>
+                        <p>Der Fakultätsrat besteht aus allen Professoren der Fakultät und den Mitgliedern der
+                            Fachschaft, den Vorsitz hat der Dekan, in Vertretung der Prodekan. Es werden dort Beschlüsse
+                            und Richtungsentscheidungen getroffen, welche die Fakultät betreffen.</p>
+                    </div>
+                    <div class="col-12 col-lg-4" data-aos="fade-up">
+                        <img src="./dist/img/ico-stuko.png">
+                        <h3>Studien&shy;kommission</h3>
+                        <p>Zu den Aufgaben der Studienkommission (StuKo) gehört es insbesondere, Empfehlungen zur
+                            Weiterentwicklung des Studiums sowie zur Verwendung der für Studium und Lehre vorgesehenen
+                            Mittel zu erarbeiten und an der Evaluation der Lehre unter Einbeziehung studentischer
+                            Veranstaltungskritik mitzuwirken.</p>
+                    </div>
+                    <div class="col-12 col-lg-4" data-aos="fade-up">
+                        <img src="./dist/img/ico-event.png" data-aos="fade-in">
+                        <h3>Events</h3>
+                        <p>Wir planen gemeinsam mit anderen Fachschaften Events und Veranstaltungen rund um euer Studium
+                            in Furtwangen.<br>
+                            Zu den Highlights gehören unter anderem die Media Night der Fakultät DM, Glühweinstände im
+                            Winter und meist ein spezielles Event im Sommer. Wir benötigen für solche Aktionen immer
+                            genug Helfer, denn ohne die ist nichts möglich.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="termine" id="termine">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="center" data-aos="fade-right">Unsere Termine</h1>
+                            <!-- <h3 class="center">Wintersemester 2021/22</h3> -->
+                    </div>
+                    <div class="col-12" data-aos="fade-in">
+                        GOOGLE CALENDAR EINBINDEN
+                        <!-- <iframe
+                            src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showDate=1&showPrint=0&showTabs=1&showCalendars=1&showTz=0&mode=WEEK&src=ZmFjaHNjaGFmdGRtQGdtYWlsLmNvbQ&color=%237CB342"
+                            style="border:solid 1px #777" width="100%" height="600" frameborder="0"
+                            scrolling="no"></iframe> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="kontakt" id="kontakt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="center" data-aos="fade-right">Der Kontakt zu uns</h1>
+                            <!-- <h3 class="center">Wintersemester 2021/22</h3> -->
+                    </div>
+                    <div class="col-12 col-md-6 col--1" data-aos="fade-up">
+                        <p class="intro">
+                            Die Fachschaft steht euch gerne Rede und Antwort bei allen euren Fragen bzgl. eures Studiums
+                            an der Fakultät Digitale Medien. </p>
+                        <br>
+                        <p>Ihr könnt euch z. B. direkt auf dem Campus an uns wenden
+                            oder ihr nutzt eine der folgenden Möglichkeiten:
+                        </p>
+                        <p>
+                            <span class="bold">E-Mail:</span> post@fachschaft-dm.de
+                            <br><span class="bold">Telefon:</span> 07723/920-2567 (Mo 13:15 – 14:15 Uhr)
+                            <!-- <br>Telefonisch erst nach Corona wieder -->
+                        </p>
+                        <p>
+                            <a href="https://www.facebook.com/Fachschaft.DM" target="_blank" class="ico-fb"></a> <a
+                                href="https://www.instagram.com/fachschaft.digitale.medien/" target="_blank"
+                                class="ico-ig"></a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 col--2" data-aos="fade-in">
+                        <img src="./dist/img/FachschaftDM-WiSe21.jpg">
+                    </div>
+                    <div class="col-12 col--3" data-aos="fade-up">
+                        <p class="mt-5 text-center">
+                            Oder ihr schaut einfach persönlich bei uns zu unseren DM Care – Zeiten vorbei:
+                            <br>
+                            <br><span class="bold">Jeden Montag 13:15 – 14:15 Uhr im Fachschaftsraum L1.04</span>
+                            <br>(Coronaweise parallel im alfaview Raum <strong>DM-20</strong>)
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="infos" id="weiteres">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 col--1">
+                    <h3>
+                        DM-Care
+                    </h3>
+                    <p>DM Care ist eine „Sprechstunde“ für euch Studenten: Kommt einfach vorbei und plaudert mit uns
+                        über Themen, die euch interessieren, unklar sind oder bringt uns auf neue Ideen für Events.</p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <h3>Wichtige Links</h3>
+                    <p>
+                        <a title="Alegmeiner Studierendenausschuss" href="http://www.asta.hs-furtwangen.de/"
+                            target="_blank" rel="noopener">AStA Furtwangen</a><br>
+                        <a href="http://www.dm.hs-furtwangen.de/" target="_blank" rel="noopener">Fakultät Digitale
+                            Medien</a><br>
+                        <a href="http://www.hs-furtwangen.de/" target="_blank" rel="noopener">Hochschule Furtwangen
+                            University</a><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 copy">
+                    <p> &copy; 2021 - Die Fachschaft Digitale Medien der Hochschule Furtwangen
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 footer-links">
+                    <p> <a href="/impressum">Impressum</a>|<a href="/datenschutz">Datenschutz</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- HTML ENDS -->
+
+    <!-- Bundled Footer JS -->
+    <script src="./dist/js/bundleFooter.js"></script>
+</body>
+
 </html>
